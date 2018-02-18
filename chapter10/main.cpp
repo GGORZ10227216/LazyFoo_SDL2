@@ -103,7 +103,7 @@ int main( int argc, char* argv[] ) {
            << IMG_GetError() << endl ;
     } // if
     else {
-      gMainWindow = SDL_CreateWindow( "Viewport", SDL_WINDOWPOS_UNDEFINED
+      gMainWindow = SDL_CreateWindow( "Color Keying", SDL_WINDOWPOS_UNDEFINED
                                       , SDL_WINDOWPOS_UNDEFINED
                                       , SCREEN_W
                                       , SCREEN_H
