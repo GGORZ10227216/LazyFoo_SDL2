@@ -23,7 +23,6 @@ void Sprite::SetRepeatFrame( int frameNum ) {
 
 void Sprite::SetDuration( int d ) {
   duration = d ;
-  duration = d ;
 } // SetDuration()
 
 void Sprite::Render( int x, int y ) {

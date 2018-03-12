@@ -41,7 +41,7 @@ SDL_Texture* SDL_Utility::LoadTextureFromFile( const std::string& p, SDL_PixelFo
 } // LoadTextureFromFile()
 
 SDL_Renderer* SDL_Utility::InitRenderer( SDL_Window* targetWin ) {
-  SDL_Renderer* result = SDL_CreateRenderer( targetWin, -1, SDL_RENDERER_ACCELERATED ) ;
+  SDL_Renderer* result = SDL_CreateRenderer( targetWin, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC ) ;
   if ( result == NULL ) {
     std::cerr << "Renderer could not be created! SDL Error: "
               << SDL_GetError() << std::endl ;
