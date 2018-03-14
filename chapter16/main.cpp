@@ -105,7 +105,7 @@ int main( int argc, char* argv[] ) {
       return -2 ;
     } // if
 
-    gMainWindow = SDL_CreateWindow( "Animated Sprites and VSync", SDL_WINDOWPOS_UNDEFINED
+    gMainWindow = SDL_CreateWindow( "TrueType Font", SDL_WINDOWPOS_UNDEFINED
                                     , SDL_WINDOWPOS_UNDEFINED
                                     , SCREEN_W
                                     , SCREEN_H
